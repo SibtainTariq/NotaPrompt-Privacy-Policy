@@ -20,17 +20,17 @@
 <body>
 <main>
 <h1>NotaPrompt Privacy Policy</h1>
-<p class="date">Effective date: October 16, 2026</p>
+<p class="date">Effective date: November 2, 2026</p>
 <p>This Privacy Policy applies to the NotaPrompt Android app (package name <strong>com.sibtain.notaprompt</strong>). Thank you for using NotaPrompt. Your privacy is important to us. This policy explains what information we collect, how we use it, and your rights when using our application.</p>
 
 <h2>1. Information We Collect</h2>
 <p>NotaPrompt collects only limited technical information that is needed to operate the application, including:</p>
 <ul>
 <li>Device information, such as model and OS version</li>
-<li>IP address (our service provider receives it like any internet request)</li>
+<li>IP address (our server receives it like any internet request)</li>
+<li>Search terms you type, which are sent to our server only to return matching prompts</li>
 <li>Crash reports and diagnostic data</li>
 <li>Application performance data</li>
-<li>Anonymous usage counts: when you open or copy a prompt, the app updates a counter so we can see which prompts are popular. These counts are not linked to your identity.</li>
 </ul>
 <p>If you use the Favorites feature, the prompts you save are stored only on your device. They are not uploaded to our servers. We do not require users to create an account to browse prompts.</p>
 <p>NotaPrompt does not show advertising and does not collect your name, email address, phone number, contacts, photos or precise location.</p>
@@ -38,7 +38,7 @@
 <h2>2. How We Use Information</h2>
 <ul>
 <li>Provide prompt content and images</li>
-<li>Show which prompts are popular</li>
+<li>Return search results</li>
 <li>Improve application performance</li>
 <li>Fix bugs</li>
 <li>Maintain security</li>
@@ -46,20 +46,19 @@
 </ul>
 
 <h2>3. Third-Party Services</h2>
-<p>NotaPrompt uses Google Firebase (Cloud Firestore) to store and deliver the prompt content shown in the app. When the app loads prompts, Google may process technical data such as your IP address and device information in order to provide this service.</p>
+<p>NotaPrompt loads prompts and images from our own server over an encrypted (HTTPS) connection. When the app requests content, our server receives technical data such as your IP address and device information in order to respond.</p>
 <table>
 <tr><th>Service</th><th>Purpose</th><th>Data Shared</th></tr>
-<tr><td>Google Firebase (Cloud Firestore)</td><td>Hosting and delivering prompt content</td><td>IP address, device info, requests made by the app</td></tr>
+<tr><td>Our server</td><td>Delivering prompt content and search results</td><td>IP address, device info, search terms</td></tr>
 <tr><td>Google Play Console</td><td>App distribution, diagnostics</td><td>Crash reports, performance data</td></tr>
 </table>
 <p>The "Open in AI Platform" buttons (Gemini and ChatGPT) only open those apps or websites. We do not send them your prompt. Their own privacy policies apply once you leave our app.</p>
 <ul>
 <li><a href="https://policies.google.com/privacy">Google's Privacy Policy</a></li>
-<li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
 </ul>
 
 <h2>4. Data Sharing</h2>
-<p>We do not sell your personal information. Information may only be shared when required by law, or with our service provider (Google Firebase) to operate the application, as described above.</p>
+<p>We do not sell your personal information. Information may only be shared when required by law or to operate the application, as described above.</p>
 
 <h2>5. Data Security</h2>
 <p>We use reasonable security measures, including encrypted (HTTPS) transmission, to protect your information. However, no method of transmission over the Internet is completely secure.</p>
@@ -69,7 +68,7 @@
 <tr><th>Data Type</th><th>Retention</th></tr>
 <tr><td>Saved Favorites</td><td>Stored on your device until you remove them or uninstall the app</td></tr>
 <tr><td>Crash reports</td><td>Typically deleted after 90 days</td></tr>
-<tr><td>Anonymous view/copy counts</td><td>Kept only as totals, not linked to you</td></tr>
+<tr><td>Server request logs</td><td>Kept only as long as needed for security and troubleshooting</td></tr>
 </table>
 
 <h2>7. Your Choices</h2>
